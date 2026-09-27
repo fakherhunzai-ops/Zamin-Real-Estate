@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build output
+out/
+dist/
+build/
+
+# Generated type declarations (unplugin-auto-import)
+auto-imports.d.ts
+
+# Local env overrides
+.env.local
+.env.*.local
+
+# Logs & caches
+*.log
+.eslintcache
+.vite/
+.tsbuildinfo
+
+# Editor/OS
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Test artifacts
+.smoke/
